@@ -1,0 +1,91 @@
+body{
+  background-color: skyblue;
+}
+header{
+  background-position: center;
+  text-align: center;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+ul a{
+color: white;
+text-decoration: none;
+}
+li{
+display: inline-block;
+height: 22px;
+width: 100px;
+color: white;
+background-color: pink;
+margin-left: auto;
+margin-right: auto;
+}
+li:hover{
+background-color: purple;
+border-style: none;
+}
+#index{
+  background-color: pink;
+  background-position: center;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 300px;
+  padding: 10px;
+}
+#cv{
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+table, th, td{
+  background-color: pink;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+form{
+  background-color: pink;
+  display: inline-block;
+  margin-left: 40%;
+  padding: 5px;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+display: block;
+margin: 15px 0px;
+width: 400px;
+box-sizing: border-box;
+border-radius: 4px;
+box-shadow: inset 2px 2px 5px grey;
+}
+textarea{
+height: 200px;
+background-color: lightblue;
+padding: 5px 4px;
+}
+button:active{
+background-color: lightgreen;
+color: blue;
+border-radius: 8px;
+box-shadow: inset 2px 2px 5px green;
+}
+footer{
+  text-align: center;
+  background-color: pink;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
